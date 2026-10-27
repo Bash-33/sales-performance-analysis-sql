@@ -23,3 +23,39 @@ WHERE category = 'Electronics';
 SELECT product_name, price
 FROM products
 WHERE price <= 500;
+
+
+```sql
+-- Count products
+SELECT COUNT(*) AS total_products
+FROM products;
+
+
+-- Get the average price
+SELECT AVG(price) AS average_price
+FROM products;
+
+
+-- Get the highest price
+SELECT MAX(price) AS highest_price
+FROM products;
+
+
+-- Get the lowest price
+SELECT MIN(price) AS lowest_price
+FROM products;
+
+
+-- Count products by category
+SELECT category, COUNT(*) AS product_count
+FROM products
+GROUP BY category
+ORDER BY product_count DESC;
+
+
+-- Get the average price for each category
+SELECT category, AVG(price) AS average_price
+FROM products
+GROUP BY category
+ORDER BY average_price DESC;
+```
