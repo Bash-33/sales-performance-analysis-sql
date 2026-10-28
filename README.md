@@ -21,3 +21,37 @@ The project begins with a sample product dataset containing product names, categ
 
 ## Project Status
 In Progress 
+
+## What I Found
+
+After analyzing the product data using SQL, I found the following:
+
+- Total number of products: 10
+- Average product price: 882 SAR
+- Highest product price: 3,500 SAR
+- Lowest product price: 35 SAR
+
+### Products by Category
+
+| Category | Number of Products |
+|---|---:|
+| Electronics | 5 |
+| Furniture | 3 |
+| Stationery | 2 |
+
+### Average Price by Category
+
+| Category | Average Price (SAR) |
+|---|---:|
+| Electronics | 1,164 |
+| Furniture | 966.67 |
+| Stationery | 50 |
+
+### Key Takeaways
+
+- Electronics has the highest average price.
+- Furniture comes second.
+- Stationery has the lowest average price.
+- Electronics makes up half of the products in the dataset.
+
+*Note: This project uses fictional data for learning and practice. The analysis focuses on product prices and categories, not actual sales or profits.*
